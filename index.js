@@ -14,8 +14,8 @@ const options = args(optionsDefinitions);
 
 const metalsmithPipeline = Metalsmith(__dirname)
   .metadata({
-    title: "My Static Site & Blog",
-    description: "It's about saying »Hello« to the World.",
+    title: "Josh Evenson",
+    description: "Just testing Metalsmith & Netlify",
     generator: "Metalsmith",
     url: "http://www.metalsmith.io/"
   })
